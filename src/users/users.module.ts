@@ -14,5 +14,6 @@ import { APP_INTERCEPTOR } from '@nestjs/core';
     },
   ],
   imports: [PrismaModule],
+  exports: [UsersService],
 })
 export class UsersModule {}
